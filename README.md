@@ -61,7 +61,7 @@ Running the Tool
 ### On Windows
 
 Install Python and pip
-- Download and install Python from the official website: Python
+- Download and install Python from the official website: [Python](https://www.python.org/downloads/)
 - Ensure Python is added to your system's PATH.
 
 1. Install Required Libraries
@@ -69,7 +69,7 @@ Install Python and pip
    pip install python-nmap scapy kivy
    ```
 2. Install Npcap Driver
-- Download and install Npcap from the official website: Npcap
+- Download and install Npcap from the official website: [Npcap](https://npcap.com/#download)
 - Ensure Npcap is added to your system's PATH.
   
 Running the Tool
