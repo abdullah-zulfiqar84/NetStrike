@@ -58,3 +58,23 @@ Running the Tool
    ```bash
    sudo python3 toolkit.py
    ```
+### On Windows
+
+Install Python and pip
+- Download and install Python from the official website: Python
+- Ensure Python is added to your system's PATH.
+
+1. Install Required Libraries
+   ```bash
+   pip install python-nmap scapy kivy
+   ```
+2. Install Npcap Driver
+- Download and install Npcap from the official website: Npcap
+- Ensure Npcap is added to your system's PATH.
+  
+Running the Tool
+- Open the terminal(admin)
+- Navigate to the project directory
+   ```bash
+   python toolkit.py
+   ```
