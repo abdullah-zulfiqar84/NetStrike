@@ -1,7 +1,7 @@
 # NetStrike (Scan Spoof Strike) :
 
-NetStrike is a GUI-based Python application for network scanning, ARP spoofing, and basic DoS attack simulation. Built using **Kivy** for the graphical interface, **Nmap**, **Scapy**, and **socket**, this tool is designed for educational and ethical hacking purposes only.......
-----
+NetStrike is a GUI-based Python application for network scanning, ARP spoofing, and basic DoS attack simulation. Built using **Kivy** for the graphical interface, **Nmap**, **Scapy**, and **socket**, this tool is designed for educational and ethical hacking purposes only
+
 ## Features
 
 ###  Scanning
