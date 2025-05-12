@@ -1,4 +1,6 @@
-# Network Penetration Testing Toolkit
+# NetStrike
+
+## A Network Penetration Testing Toolkit
 
 A comprehensive GUI-based toolkit for network penetration testing, including scanning, ARP spoofing, DoS and DDoS attack simulations.
 
