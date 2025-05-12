@@ -1,84 +1,43 @@
-# NetStrike (Scan Spoof Strike) :
+# Network Penetration Testing Toolkit
 
-NetStrike is a GUI-based Python application for network scanning, ARP spoofing, and basic DoS attack simulation. Built using **Kivy** for the graphical interface, **Nmap**, **Scapy**, and **socket**, this tool is designed for educational and ethical hacking purposes only
+A comprehensive GUI-based toolkit for network penetration testing, including scanning, ARP spoofing, DoS and DDoS attack simulations.
 
 ## Features
 
-###  Scanning
-- **Host Discovery** (Ping Sweep)
-- **Scan All Devices** in the local network
-- **Quick Scan** (Top 100 Ports)
-- **Aggressive Scan** (OS, services, versions, etc.)
-- **Full Scan** (All Ports)
+- Network scanning (host discovery, port scanning)
+- Vulnerability assessment
+- ARP spoofing
+- DoS attack simulation
+- DDoS attack simulation
+- PDF report generation
 
-###  ARP Spoofing
-- Sends ARP spoof packets to a target and gateway.
-- Can simulate man-in-the-middle conditions for testing purposes.
+## Installation
 
-###  DoS (Denial of Service) Attack (Simulation)
-- Basic TCP-based DoS attack on a given IP and port.
-- Uses multithreading for high traffic simulation.
+### Prerequisites
 
-> ⚠️ **Disclaimer:** All functionalities must be used in **authorized environments**. Misuse is illegal and unethical.
+- Python 3.7 or higher
+- **Npcap**: Required for packet capture and network operations
+  - Windows users: Download and install from [Npcap's official website](https://npcap.com/#download)
 
----
+### Setup
 
-## 🖥️ GUI Built With
-- [Kivy](https://kivy.org/) - Python framework for GUI (Graphical User Interface)
+1. Install the required dependencies:
+```bash
+pip install -r requirements.txt
+```
 
-## Dependencies
-- Python 3
-- Nmap (Requires Npcap on Windows)
-- Scapy
-- Kivy
+2. Run the application:
+```bash
+python Project.py
+```
 
-### On Linux
+### Important Notes for Windows Users
 
-1. Install Python
-   ```bash
-   sudo apt install python3 python3-pip
-   ```
-2. Create a Virtual Environment
-   ```bash
-   python3 -m venv netstrike-env
-   ```
-3. Activate the Virtual Environment
-   ```bash
-   source netstrike-env/bin/activate
-   ```
-4. Install Required Libraries
-   ```bash
-   pip install kivy scapy python-nmap
-   ```
-5. Install and Verify Nmap Tool
-   ```bash
-   sudo apt update && sudo apt install nmap
-   ```
-Running the Tool
-   ```bash
-   sudo python3 toolkit.py
-   ```
-### On Windows
+- The application requires administrator privileges to perform network operations
+- Ensure Windows Defender or other antivirus software doesn't block the application
+- If you encounter issues with Scapy, try reinstalling Npcap with all options enabled
 
-Install Python and pip
 
-- Download and install Python from the official website: [Python](https://www.python.org/downloads/)
-- Ensure Python is added to your system's PATH.
+## Note
 
-1. Install Required Libraries
-   ```bash
-   pip install python-nmap scapy kivy
-   ```
-3. Install Npcap Driver
-
-- Download and install Npcap from the official website: [Npcap](https://npcap.com/#download)
-- Ensure Npcap is added to your system's PATH.
-  
-Running the Tool
-
-- Open the terminal(admin)
-- Navigate to the project directory
-
-   ```bash
-   python toolkit.py
-   ```
+This tool is intended for educational purposes and authorized penetration testing only.
