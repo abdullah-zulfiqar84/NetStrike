@@ -19,7 +19,7 @@ A comprehensive GUI-based toolkit for network penetration testing, including sca
 
 - Python 3.7 or higher
 - **Npcap**: Required for packet capture and network operations
-  - Windows users: Download and install from [Npcap's official website](https://npcap.com/#download)
+- Windows users: Download and install from [Npcap's official website](https://npcap.com/#download)
 
 ### Setup
 
